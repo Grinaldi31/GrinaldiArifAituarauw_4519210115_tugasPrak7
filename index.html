@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Membuat Segitiga Bintang </title>
+</head>
+<body>
+  <h1>Membuat Segitiga Bintang</h1>
+  <form onsubmit="generateTriangle(event)"> 
+    <label for="tinggiSegitiga">Masukkan tinggi segitiga (bilangan bulat positif):</label>
+    <input type="text" name="tinggiSegitiga" id="tinggiSegitiga">
+    <br>
+    <label for="bintang">Masukkan * untuk menggambar segitiga:</label>
+    <input type="text" name="bintang" id="bintang">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+  <div id="triangleResult"></div>
+  <script src="script.js"></script>
+</body>
+</html>
